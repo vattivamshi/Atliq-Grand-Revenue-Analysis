@@ -1,0 +1,27 @@
+| **Measure Name**             | **Purpose / Description**                                      |
+| ---------------------------- | -------------------------------------------------------------- |
+| `day type`                   | Classifies each date as "Weekday" or "Weekend".                |
+| `High Rating Count`          | Counts bookings with ratings greater than 3.                   |
+| `Low Rating Count`           | Counts bookings with ratings 3 or below.                       |
+| `Total Days`                 | Calculates the total number of days in the dataset.            |
+| `Total Revenue Loss`         | Sums all revenue lost from bookings.                           |
+| `Total Successful Bookings`  | Counts bookings where status is "Checked Out".                 |
+| `wn`                         | Returns the week number from the date.                         |
+| `Occupancy %`                | Calculates occupancy as successful bookings ÷ total capacity.  |
+| `Total Capacity`             | Sums up all available room capacity.                           |
+| `Total Succcessful Bookings` | Sums the successful bookings from the aggregated table.        |
+| `Average Daily Rate`         | Revenue ÷ Total Bookings, returns average booking value.       |
+| `Average Rating`             | Calculates the average rating from all bookings.               |
+| `Booking % by platform`      | Booking share by platform (normalized to total bookings).      |
+| `Booking % by room class`    | Booking share by room category.                                |
+| `Cancellation %`             | Percentage of bookings that were cancelled.                    |
+| `No Show Rate`               | Share of bookings marked as "No Show".                         |
+| `Realisation %`              | Proportion of total bookings that were checked out.            |
+| `Revenue`                    | Total revenue realized from bookings.                          |
+| `Revenue Loss`               | Difference between generated and realized revenue per booking. |
+| `Revenue Per Available Room` | RevPAR = Revenue ÷ Capacity.                                   |
+| `RevPar Loss`                | Revenue loss per available room.                               |
+| `Total Bookings`             | Total number of booking records.                               |
+| `Total Cancelations`         | Number of bookings marked as "Cancelled".                      |
+| `Total Checked Out`          | Number of bookings that were "Checked Out".                    |
+| `Total No Show Bookings`     | Number of bookings marked as "No Show".                        |
